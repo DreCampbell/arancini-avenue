@@ -379,14 +379,13 @@ footer > section + section{
         width: 50%;
     }
 
-
-  
-  /******************************************
-  /* ADDITIONAL STYLES
-  /*******************************************/
   @media screen and (max-width: 600px) {
     .nav-menu{
         padding-right: 80px;
+    }
+    .nav-menu.active{
+        left: 0;
+        margin-top: -22px;
     }
     .logo img{
         width: 300px;
@@ -413,8 +412,14 @@ footer > section + section{
         width: 40%;
         margin: 0 10px;
     }
+    .filling p{
+        margin: 15px 0;
+    }
     main img{
         width: 80%;
+    }
+    footer h4{
+        font-size: .9rem;
     }
     footer a{
         font-size: .8rem;
