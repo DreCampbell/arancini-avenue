@@ -374,6 +374,7 @@ footer > section + section{
     .menu > section + section{
         display: flex;
         width: 50%;
+        height: 170px;
     }
     .mostPopular > section + section > section{
         width: 50%;
