@@ -134,6 +134,10 @@ main img:hover{
     margin: auto;
 }
 
+.menu h4{
+    width: 100%;
+}
+
 section p{
     display: flex;
     justify-content: center;
@@ -374,12 +378,17 @@ footer > section + section{
     .menu > section + section{
         display: flex;
         width: 50%;
-        height: 170px;
     }
     .mostPopular > section + section > section{
         width: 50%;
     }
 
+  @media screen and (max-width: 360px) {
+    .menu > section + section{
+
+        height: 170px;
+    }
+  }
   @media screen and (max-width: 600px) {
     .nav-menu{
         padding-right: 80px;
