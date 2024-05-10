@@ -383,12 +383,6 @@ footer > section + section{
         width: 50%;
     }
 
-  @media screen and (max-width: 360px) {
-    .menu > section + section{
-
-        height: 170px;
-    }
-  }
   @media screen and (max-width: 600px) {
     .nav-menu{
         padding-right: 80px;
@@ -414,6 +408,7 @@ footer > section + section{
     .menu > section + section{
         display: flex;
         width: 50%;
+        height: 100%;
     }
     .mostPopular{
         width: 95%;
