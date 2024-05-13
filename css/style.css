@@ -377,7 +377,7 @@ footer > section + section{
     }
     .menu > section + section{
         display: flex;
-        width: 50%;
+        width: 33%;
     }
     .mostPopular > section + section > section{
         width: 50%;
@@ -449,5 +449,11 @@ footer > section + section{
     }
     .welcome{
         margin-top: -30px;
+    }
+    .menu img{
+        width: 80%;
+    }
+    .filling h4{
+        width: 21%;
     }
   }
